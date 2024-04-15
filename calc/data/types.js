@@ -85,7 +85,7 @@ var RBY = {
         Rock: 0.5,
         Fighting: 1,
         Psychic: 1,
-        Ghost: 0,
+        Ghost: 0.5,
         Dragon: 1
     },
     Grass: {
@@ -153,7 +153,7 @@ var RBY = {
         Flying: 2,
         Bug: 1,
         Poison: 1,
-        Ground: 0,
+        Ground: 0.5,
         Rock: 1,
         Fighting: 1,
         Psychic: 1,
@@ -240,7 +240,7 @@ var RBY = {
         Water: 1,
         Electric: 2,
         Ice: 1,
-        Flying: 0,
+        Flying: 0.5,
         Bug: 0.5,
         Poison: 2,
         Ground: 1,
@@ -283,7 +283,7 @@ var RBY = {
         Rock: 2,
         Fighting: 1,
         Psychic: 0.5,
-        Ghost: 0,
+        Ghost: 0.5,
         Dragon: 1
     },
     Psychic: {
@@ -306,7 +306,7 @@ var RBY = {
     },
     Ghost: {
         '???': 1,
-        Normal: 0,
+        Normal: 0.5,
         Grass: 1,
         Fire: 1,
         Water: 1,
@@ -351,11 +351,11 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
     Ice: { Fire: 0.5, Dark: 1, Steel: 0.5 },
     Flying: { Dark: 1, Steel: 0.5 },
     Bug: { Poison: 0.5, Dark: 2, Steel: 0.5 },
-    Poison: { Bug: 1, Dark: 1, Steel: 0 },
+    Poison: { Bug: 1, Dark: 1, Steel: 0.5 },
     Ground: { Dark: 1, Steel: 2 },
     Rock: { Dark: 1, Steel: 0.5 },
     Fighting: { Dark: 2, Steel: 2 },
-    Psychic: { Dark: 0, Steel: 1 },
+    Psychic: { Dark: 0.5, Steel: 1 },
     Ghost: { Psychic: 2, Dark: 0.5, Steel: 1 },
     Dragon: { Dark: 1, Steel: 0.5 },
     Dark: {
